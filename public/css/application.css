@@ -1,0 +1,601 @@
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+body {
+    color: #5f6368;
+}
+
+#app {
+    background-color: #FFF;
+}
+
+a {
+    color: #5f6368;
+}
+
+a:hover,
+a:focus {
+    color: #202124;
+}
+
+.panel {
+    box-shadow: none;
+}
+
+.panel-default {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.mb-3,
+.my-3 {
+    margin-bottom: 1rem !important;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.material-icons {
+    vertical-align: middle;
+    /* new */
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e6e5e5;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active,
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    color: #000 !important;
+}
+
+#side-navbar {
+    background-color: #fff;
+    padding-top: 1%;
+    padding-right: 0%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #000;
+    background-color: #f9fafa;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #000;
+    background-color: #f9fafa;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #f9fafa;
+}
+
+.page-panel-title {
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.pagination {
+    margin: 0px !important;
+}
+
+.table th {
+    font-size: 12px;
+}
+
+.nav-link-align-btn {
+    color: #000;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 60px !important;
+}
+.account{
+    font-style: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+ .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 25px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-left: 1500px;
+            }
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:477px;
+    width:580px;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:477px;
+    width:580px;
+}
+
+#iframeGlyphicon{
+    display: flex;
+}
+#glyphicon{
+    display: flex;
+}
+
+#glyphicon > ul {
+    list-style: none;
+}
+
+
+#glyphicon > ul >li{
+    margin-left: 50px;
+}
+#draggable{
+    display: flex;
+}
+#draggable > div {
+    margin-left: 100px;
+}
+#employees { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    background: #007bff !important;
+    color: #fff !important;
+ }
+
+.employees { 
+    text-align: center;
+ }
+ #users { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    background-color: #ffc107 !important;
+    color: #fff !important;
+ }
+ .users { 
+    text-align: center;
+ }
+ #capital { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    background-color: #6c757d !important;
+    color: #fff !important;
+ }
+ .capital { 
+    text-align: center;
+ }
+ #expense { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    background-color: #dc3545 !important;
+    color: #fff !important;
+ }
+ .expense { 
+   text-align: center;
+ }
+ #income { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    background-color: #28a745 !important;
+    color: #fff !important;
+ }
+ .income { 
+    text-align: center;
+ }
+#accordion{
+    margin-top: 45px;
+   /* width: 34%;*/
+}
+
+#accordionIframeVideo{
+    display: flex;
+}
+
+.hdmartial{
+    margin-top: 20px;
+}
+.btnImage{
+    margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+#container-pictures {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}*/
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+
+
+
+  * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
