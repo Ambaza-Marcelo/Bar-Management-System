@@ -10,7 +10,7 @@ use App\Service;
 class EmployeeController extends Controller
 {
 
-	public function index()
+	//public function index()
     {
        
         $employes = Employee::with('adresse','service')->paginate(15);
