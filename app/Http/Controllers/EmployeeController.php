@@ -10,14 +10,14 @@ use App\Service;
 class EmployeeController extends Controller
 {
 
-	//public function index()
+	public function index()
     {
        
         $employes = Employee::with('adresse','service')->paginate(15);
         return view('employe.index',compact('employes'));
     }
 
-    public function create()
+    //public function create()
     {
         //
         $adresse = Adresse::get();
