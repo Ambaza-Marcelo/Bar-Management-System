@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class ExpenseController extends Controller
 {
 
-    public function index()
+    //public function index()
     {
         //
        $expenseParMois = Expense::select(
