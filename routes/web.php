@@ -1,6 +1,6 @@
 <?php
 
-
+//les routes qui ne neccessitent pas l'authentification
 Route::get('/', 'WelcomeController@home')->name('home');
 
 Auth::routes();
