@@ -14,14 +14,14 @@ BAR AND Restaurant MANAGEMENT SYSTEM
 				#AMBAZA MARCELLIN
 
 
-
+  """"
 ''    ''    ''            ''       """"""
 ''	  ''    '''	         '''	""
 ''    '' 	''	''	   '' ''	""
 ''""""'' 	''		""	  ''		"""""
 ''    ''  	''            ''			""
 ''    ''	''            ''	""		""
-''    ''	''            ''	  """"
+''""" '"	''            ''	  """"
 
 					FONCTIONNALITES
 					'''''''''''''''
@@ -134,4 +134,4 @@ AKABIRYA:
     	*php artisan serve
 
 
-le 29/09/2021
+le 29/10/2021
