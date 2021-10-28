@@ -12,7 +12,7 @@ use Carbon\Carbon;
 class ReportController extends Controller
 {
 
-    //public function index()
+    public function index()
     {
         $rapportGeneralParMois = Report::select(
                         DB::raw('MONTH(created_at) as month,YEAR(created_at) as year'),
