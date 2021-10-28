@@ -17,7 +17,7 @@ class EmployeeController extends Controller
         return view('employe.index',compact('employes'));
     }
 
-    //public function create()
+    public function create()
     {
         //
         $adresse = Adresse::get();
