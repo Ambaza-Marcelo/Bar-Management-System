@@ -15,27 +15,6 @@ class AdresseController extends Controller
         return view('adresse.index',compact('adresses'));
     }
 
-    public function create()
-    {
-        //
-        return view('adresse.create');
-    }
-
-  
-    public function store(Request $request)
-    {
-        //
-        $request->validate([
-            'pays' => 'required',
-            'province' => 'required',
-            'commune' => 'required',
-            'zone' => 'required',
-            'quartier' => 'required',
-        ]);
-
-        Adresse::create($request->all());
-        return redirect()->route('adresses')->with('message','vous avez enregistree adresse avec succes');
-    }
    
     public function edit($id)
     {
