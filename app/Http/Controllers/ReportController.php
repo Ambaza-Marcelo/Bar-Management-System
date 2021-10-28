@@ -14,7 +14,7 @@ class ReportController extends Controller
 
     public function index()
     {
-        $rapportGeneralParMois = Report::select(
+        //$rapportGeneralParMois = Report::select(
                         DB::raw('MONTH(created_at) as month,YEAR(created_at) as year'),
                         DB::raw('sum(prix_vente_total) as total_prix_vente'),
                         DB::raw('sum(prix_achat_total) as total_prix_achat'))->groupBy('month','year')->paginate(12);
