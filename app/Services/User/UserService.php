@@ -56,23 +56,5 @@ class UserService {
         return $tb;
     }
 
-    public function storeEmployee($request, $role){
-        $tb = new $this->user;
-        $tb->name = $request->name;
-        $tb->email = (!empty($request->email)) ? $request->email : '';
-        $tb->password = bcrypt($request->password);
-        $tb->role = $role;
-        $tb->active = 1;
-        $tb->hotel_id = auth()->user()->hotel_id;
-        $tb->code = auth()->user()->code;
-        $tb->gender = $request->gender;
-        $tb->blood_group = $request->blood_group;
-        $tb->nationality = (!empty($request->nationality)) ? $request->nationality : '';
-        $tb->phone_number = $request->phone_number;
-        $tb->pic_path = (!empty($request->pic_path)) ? $request->pic_path : '';
-        $tb->verified = 1;
-        $tb->save();
-        return $tb;
-    }
 
 }
