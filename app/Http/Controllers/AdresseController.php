@@ -8,6 +8,12 @@ use App\Adresse;
 class AdresseController extends Controller
 {
     //
+    public function index()
+    {
+       
+        $adresses = Adresse::paginate(15);
+        return view('adresse.index',compact('adresses'));
+    }
 
     public function create()
     {
