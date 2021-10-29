@@ -5,26 +5,7 @@
     <div class="container-fluid">
             <div class="col-md-12">
                 modifier adresse 
-                <div class="box box-info">
-                    <form action="{{ route('modifier-adresse',$adresse->id)}}" method="post">
-                        <div class="box-body">
-                            @csrf
-                            @method('PUT')
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="form-group has-feedback">
-                                        <label for="pays">pays<br><span class="text-black"></span></label>
-                                        <input  type="text" class="form-control" name="pays" value="{{$adresse->pays}}">
-                                        <span class="text-danger">{{ $errors->first('pays') }}</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group has-feedback">
-                                        <label for="province">Province<br><span class="text-black"></span></label>
-                                        <input  type="text" class="form-control" name="province" value="{{$adresse->province}}">
-                                        <span class="text-danger">{{ $errors->first('province') }}</span>
-                                    </div>
-                                </div>
+                
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
