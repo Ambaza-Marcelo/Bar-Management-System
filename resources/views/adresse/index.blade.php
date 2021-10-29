@@ -2,27 +2,7 @@
 @section('title','liste des adresses')
 @section('content')
     <section class="container">
-            <div class="col-md-12">
-                <div class="">
-                    <div class="box-header">
-                        <div class="">
-                            <a class="btn btn-info btn-sm" href="{{ route('creer-adresse')}}">Créer</a>
-                        </div>
-                        <br>
-                    </div>
-                    <div class="">
-                        <table id="products" class="table table-bordered table-striped list_view_table">
-                            <thead>
-                            <tr>
-                                <th width="10%">#</th>
-                                <th width="10%">Pays</th>
-                                <th width="10%">Province</th>
-                                <th width="10%">Commune</th>
-                                <th width="10%">Zone</th>
-                                <th width="10%">Quartier/Colline</th>
-                                <th width="15%">Action</th>
-
-                            </tr>
+        
                             </thead>
                             <tbody>
                                 @foreach($adresses as $adresse)
