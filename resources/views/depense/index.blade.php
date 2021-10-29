@@ -6,22 +6,7 @@
 			      <div class=" col-sm-10">
 			        <a href="{{ route('creer-depenses') }}" class="btn btn-info">+Creer</a>
 			      </div>
-		</div>
-		<br>
-		<div class="panel panel-header">
-			Les depenses
-		</div>
-		  <table class="table table-bordered">
-		    <thead>
-		      <tr>
-		        <th>id</th>
-		        <th>Date</th>
-		        <th>Description</th>
-		        <th>Montant</th>
-		        <th>Actions</th>
-		      </tr>
-		    </thead>
-		    <tbody>
+		
 		      @foreach($expenses as $expense)     
 		      <tr class="success">
 		        <td>{{$expense->id}}</td>
