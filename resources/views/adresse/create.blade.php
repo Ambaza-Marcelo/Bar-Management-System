@@ -1,7 +1,17 @@
 @extends('layouts.app')
 @section('title','creer adresse')
 @section('content')
-
+<div class="container">
+    <div class="container-fluid">
+            <div class="col-md-12">
+                Creer adresse 
+                <div class="box box-info">
+                    <form action="{{ route('enregistrer-adresse')}}" method="post">
+                        <div class="box-body">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group has-feedback">
                                         <label for="pays">pays<br><span class="text-black"></span></label>
                                         <input  type="text" class="form-control" name="pays" placeholder="pays">
                                         <span class="text-danger">{{ $errors->first('pays') }}</span>
