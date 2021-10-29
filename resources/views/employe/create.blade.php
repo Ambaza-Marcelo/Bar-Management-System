@@ -5,7 +5,26 @@
     <div class="container-fluid">
             <div class="col-md-12">
                 Creer un employe 
-              
+                <div class="box box-info">
+                    <form action="{{ route('enregistrer-employe')}}" method="post">
+                        <div class="box-body">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group has-feedback">
+                                        <label for="nom">Nom<br><span class="text-black"></span></label>
+                                        <input  type="text" class="form-control" name="nom" placeholder="nom">
+                                        <span class="text-danger">{{ $errors->first('nom') }}</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group has-feedback">
+                                        <label for="prenom">Prenom<br><span class="text-black"></span></label>
+                                        <input  type="text" class="form-control" name="prenom" placeholder="prenom">
+                                        <span class="text-danger">{{ $errors->first('prenom') }}</span>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group has-feedback">
