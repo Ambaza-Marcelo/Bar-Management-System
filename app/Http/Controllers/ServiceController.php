@@ -8,7 +8,7 @@ use App\Service;
 class ServiceController extends Controller
 {
     //
-    public function index()
+    //public function index()
     {
         //
 
