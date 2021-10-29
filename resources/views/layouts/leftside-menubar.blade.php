@@ -18,7 +18,11 @@
   }
 </style>
 
-
+<ul class="nav flex-column">
+  @if(\Auth::user()->role == 'admin')
+  <li class="nav-item active">
+    <a class="nav-link" href="{{ url('home') }}"><span class="nav-link-text">Gérer Bar</span></a>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="{{ route('employes')}}"><span class="nav-link-text">Gérer employé</span>
   </li>
