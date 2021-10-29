@@ -134,4 +134,4 @@ AKABIRYA:
     	*php artisan serve
 
 
-le 29/10/2021
+   October 29,2021
