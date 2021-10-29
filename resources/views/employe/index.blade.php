@@ -10,7 +10,26 @@
                         </div>
                         <br>
                     </div>
-                    
+                    <div class="">
+                        <table id="products" class="table table-bordered table-striped list_view_table">
+                            <thead>
+                            <tr>
+                                <th width="10%">#</th>
+                                <th width="10%">Nom</th>
+                                <th width="10%">prenom</th>
+                                <th width="15%">A/N</th>
+                                <th width="10%">Sexe</th>
+                                <th width="10%">pays</th>
+                                <th width="10%">province</th>
+                                <th width="10%">commune</th>
+                                <th width="10%">zone</th>
+                                <th width="10%">quartier</th>
+                                <th width="10%">service</th>
+                                <th width="15%">Salaire</th>
+                                <th width="15%">Actions</th>
+
+                            </tr>
+                            </thead>
                             <tbody>
                                 @foreach($employes as $employe)
                                 <tr>
