@@ -1,7 +1,30 @@
 @extends('layouts.app')
 @section('title','modifier les depenses')
 @section('content')
-        
+        <div class="container">
+              <h2>modifier les depenses</h2>
+              <form class="form-horizontal" method="POST" action="{{ route('modifier-depenses',$expense->id)}}">
+                {{ csrf_field() }}
+                @method('PUT')
+                <div class="form-group{{ $errors->has('date') ? ' has-error' : '' }}">
+                    <label for="date" class="col-md-4 control-label">Date</label>
+
+                    <div class="col-md-6">
+                        <input type="date" name="date" class="form-control" value="{{$expense->date}}">
+
+                        @if ($errors->has('date'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('date') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                </div>
+                <div class="form-group{{ $errors->has('title') ? ' has-error' : '' }}">
+                    <label for="title" class="col-md-4 control-label">Description</label>
+
+                    <div class="col-md-6">
+                        <textarea class="form-control" name="title">
+                            {{$expense->title}}
                         </textarea>
 
                         @if ($errors->has('title'))
