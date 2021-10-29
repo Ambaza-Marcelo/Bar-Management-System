@@ -7,18 +7,7 @@
                 Creer un employe 
                 <div class="box box-info">
                     <form action="{{ route('modifier-employe',$employe->id)}}" method="post">
-                        <div class="box-body">
-                            @csrf
-                            @method('PUT')
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="form-group has-feedback">
-                                        <label for="nom">Nom<br><span class="text-black"></span></label>
-                                        <input  type="text" class="form-control" name="nom" value="{{$employe->nom}}">
-                                        <span class="text-danger">{{ $errors->first('nom') }}</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
+                        
                                     <div class="form-group has-feedback">
                                         <label for="prenom">Prenom<br><span class="text-black"></span></label>
                                         <input  type="text" class="form-control" name="prenom" value="{{$employe->prenom}}">
