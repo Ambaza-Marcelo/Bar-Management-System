@@ -22,9 +22,8 @@ class UserResource extends Resource
             'address' => $this->address,
             'about' => $this->about,
             'pic_path' => (!empty($this->pic_path))?$this->pic_path:null,
-            //'phone_number' => $this->phone_number,
-            'hotel_code' => $this->code,
-            'hotel' => new HotelResource(\App\Hotel::where('code',$this->code)->first()),
+            'phone_number' => $this->phone_number,
+            'bar_code' => $this->code,
         ];
     }
 }
