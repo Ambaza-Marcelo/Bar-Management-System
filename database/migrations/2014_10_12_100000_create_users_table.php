@@ -20,12 +20,11 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('role');
             $table->tinyInteger('active');
-            $table->integer('hotel_id')->nullable();
-            $table->integer('code')->nullable();//school code Auto generated
+            $table->integer('code')->nullable();
             $table->string('gender')->default('');
             $table->string('blood_group')->default('');
             $table->string('nationality')->default('');
-            //$table->string('phone_number')->unique()->default('');
+            $table->string('phone_number')->unique()->default('');
             $table->string('address')->default('');
             $table->text('about')->default('');
             $table->string('pic_path')->default('');
