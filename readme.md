@@ -1,43 +1,19 @@
 
 
-BAR AND Restaurant MANAGEMENT SYSTEM
-
-				#AMBAZA MARCELLIN
+<h1>BAR AND Restaurant MANAGEMENT SYSTEM</h1>
 
 
-					FONCTIONNALITES
-					'''''''''''''''
-			1.gestion du stock
-			2.gestion des achats
-			3.gestion des ventes
-			3.gestion des clients
-			4.gestion des depenses
-			5.prise des commandes en ligne
-			6.Alerte Stock
-			7.Suivi du stock
-			8.Etablissement d'un ticket de vente apres consommation
-			9.Gestion des employees
-			10.gestion des presences des employees
-			11.gestion des rapports
-			12.gestion des conges
-			13.Statistiques du Systeme
+			<h2> #AMBAZA MARCELLIN</h2>
 
+<ul>AKABIRYA: 
+		<li>SIMPLICITE</li>
+		<li>RAPIDITE</li>
+		<li>SECURISE</li>
 
-N.B:
-		-possibilite d'acceder a distance via PC ,smartPhone ,etc.
-		-possibilite de gerer plusieurs choses en meme temps
+</ul>
 
 
 
-
-AKABIRYA:
-		-SIMPLICITE
-		-RAPIDITE
-		-SECURISE
-
-
-
----HELP----- TO INSTALL
 
  step1.
  	-copy
