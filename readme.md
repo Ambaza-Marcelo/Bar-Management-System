@@ -13,23 +13,27 @@
 </ul>
 
 
+<h2>How To Install</h2>
 
+ <h3>step 1 :</h3>
+ 	<ol>
+    <li>copy</li>
+ 	<li>cd repository</li>
+ 	<li>git clone</li> 
+ </ol>
+ <h3>step 2 : </h3>
+    <ul>
+ 	  <li>go to env.dusk.example and rename it as env.</li>
+ 	<li>DB_CONNECTION=mysql</li>
+	<li>DB_HOST=127.0.0.1</li>
+	<li>DB_PORT=3306</li>
+	<li>DB_DATABASE=dbname</li>
+	<li>DB_USERNAME=root</li>
+	<li>DB_PASSWORD=</li>
+</ul>
 
- step1.
- 	-copy
- 	-cd repository
- 	-git clone 
- step2.
- 	-go to env.dusk.example and rename it as env.
- 	-DB_CONNECTION=mysql
-	-DB_HOST=127.0.0.1
-	-DB_PORT=3306
-	-DB_DATABASE=dbname
-	-DB_USERNAME=root
-	-DB_PASSWORD=
-
- step3.
- 	-go to database file in config folder
+ <h3>step 3 :</h3>
+ 	<p>go to database file in config folder
  	'connections' => [
 
         'sqlite' => [
@@ -84,8 +88,9 @@
         ],
 
     ],
+    </p>
 
-   step4.
+   <h3>step 4 :</h3>
     -run the following commands
     	*php artisan migrate
     	*php artisan db:seed
