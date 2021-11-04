@@ -44,8 +44,6 @@ class UserService {
         $tb->password = bcrypt($request->password);
         $tb->role = 'admin';
         $tb->active = 1;
-        $tb->hotel_id = session('register_hotel_id');
-        $tb->code = session('register_hotel_code');
         $tb->gender = $request->gender;
         $tb->blood_group = $request->blood_group;
         $tb->nationality = (!empty($request->nationality)) ? $request->nationality : '';
@@ -63,7 +61,6 @@ class UserService {
         $tb->password = bcrypt($request->password);
         $tb->role = $role;
         $tb->active = 1;
-        $tb->hotel_id = auth()->user()->hotel_id;
         $tb->code = auth()->user()->code;
         $tb->gender = $request->gender;
         $tb->blood_group = $request->blood_group;
