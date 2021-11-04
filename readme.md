@@ -3,12 +3,12 @@
 <h1>BAR AND Restaurant MANAGEMENT SYSTEM</h1>
 
 
-			<h2> #AMBAZA MARCELLIN</h2>
+			#AMBAZA MARCELLIN
 
 <ul>AKABIRYA: 
 		<li>SIMPLICITE</li>
 		<li>RAPIDITE</li>
-		<li>SECURISE</li>
+		<li>SECURITE</li>
 
 </ul>
 
