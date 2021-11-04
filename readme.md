@@ -90,7 +90,8 @@
     ],
 
    <h3>step 4 :</h3>
-    -run the following commands
-    	*php artisan migrate
-    	*php artisan db:seed
-    	*php artisan serve
+    <ul>run the following commands
+    	<li>php artisan migrate</li>
+    	<li>php artisan db:seed</li>
+    	<li>php artisan serve</li>
+    </ul>
