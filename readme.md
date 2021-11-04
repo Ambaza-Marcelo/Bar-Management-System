@@ -33,7 +33,7 @@
 </ul>
 
  <h3>step 3 :</h3>
- 	<p>go to database file in config folder
+ 	<p>go to database file in config folder</p>
  	'connections' => [
 
         'sqlite' => [
@@ -88,7 +88,6 @@
         ],
 
     ],
-    </p>
 
    <h3>step 4 :</h3>
     -run the following commands
