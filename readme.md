@@ -94,6 +94,3 @@
     	*php artisan migrate
     	*php artisan db:seed
     	*php artisan serve
-
-
-   October 29,2021
